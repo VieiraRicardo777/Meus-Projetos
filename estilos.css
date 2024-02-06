@@ -2,4 +2,81 @@ body {
   --bege: #E6E0D6;
   --marrom-escuro: #816D4F;
   --marrom-claro: #B29463;
+  font-family: 'Barlow', sans-serif;
+  height: 4000px;
+  
+}
+
+input[type=checkbox] {
+  border: 2px solid var(--marrom-claro);
+  box-shadow: none;
+}
+
+input[type=checkbox]:checked,
+input[type="checkbox"]:focus {
+  background-color: var(--marrom-claro);
+  border-color: var(--marrom-claro);
+  box-shadow: none;
+  outline: none;
+}
+
+.banner-1 {
+  background-image: url(assets/banner-1.png);
+  
+}
+
+.banner-2 {
+  background-image: url(assets/banner-2.png);
+  
+}
+
+.banner-3 {
+  background-image: url(assets/banner-3.png);
+  
+}
+
+.banners {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* paralax fixa a imagem na tela para efeito */
+
+}
+
+.banners-titulo {
+  --bs-bg-opacity: .2;
+
+}
+
+.cards {
+  margin-bottom: 5%;
+  padding: 5%;
+  text-align: justify;
+}
+.btn{
+  background-color: var(--marrom-claro);
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.title {  
+font-family: Barlow;
+font-size: 40px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0px;
+text-align: center;
+padding-bottom: 50px;
+
+}
+
+
+.card-body {
+width: Fill (350px);
+height: Hug (272px);
+padding: 24px;
+gap: 24px;
 }
