@@ -80,3 +80,18 @@ input[type=range]::-webkit-slider-thumb {
 
 }
 
+.footer {
+  background-color: var(--marrom-claro);
+}
+
+[data-bs-theme="dark"] {
+  color: white; 
+  .nav-link, .card-body, .offcanvas, .accordion, .btn {
+    --bs-nav-link-color: white;
+    --bs-card-color: white;
+    --bs-offcanvas-color: white;
+    --bs-accordion-color: white;
+    --bs-btn-color: white;
+  }     
+  
+}
