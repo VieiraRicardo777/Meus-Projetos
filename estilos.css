@@ -28,17 +28,17 @@ input[type=range]::-webkit-slider-thumb {
 
 
 .banner-1 {
-  background-image: url(assets/banner-1.png);
+  background-image: url(assets/banner-1.jpg);
 
 }
 
 .banner-2 {
-  background-image: url(assets/banner-2.png);
+  background-image: url(assets/banner-2.jpg);
 
 }
 
 .banner-3 {
-  background-image: url(assets/banner-3.png);
+  background-image: url(assets/banner-3.jpg);
 
 }
 
@@ -50,11 +50,6 @@ input[type=range]::-webkit-slider-thumb {
   background-position: center;
   background-attachment: fixed;
   /* paralax fixa a imagem na tela para efeito */
-
-}
-
-.banners-titulo {
-  --bs-bg-opacity: .2;
 
 }
 
@@ -78,6 +73,11 @@ input[type=range]::-webkit-slider-thumb {
   padding-bottom: 50px;
   padding-top: 3px;
 
+}
+
+
+.card-text{
+  font-size: 1rem;
 }
 
 .footer {
