@@ -131,6 +131,7 @@ input[type=range]::-webkit-slider-thumb {
     --bs-offcanvas-color: white;
     --bs-accordion-color: white;
     --bs-btn-color: white;
+    
   }     
   
 }
@@ -141,10 +142,23 @@ input[type=range]::-webkit-slider-thumb {
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #fff;
-  border: 1px solid #ccc;
+  background-color: var(--cinza-escuro); /* Fundo escuro */
+  color: white; /* Texto branco */
+  border: 1px solid white; /* Bordas brancas */
   padding: 10px 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   z-index: 9999;
+}
+
+[data-bs-theme="light"] .popup-email {
+  background-color: white; /* Fundo claro */
+  color: black; /* Texto preto */
+  border-color: black; /* Bordas pretas */
+}
+
+[data-bs-theme="dark"] .popup-email {
+  background-color: var(--cinza-escuro); /* Fundo escuro */
+  color: white; /* Texto branco */
+  border-color: white; /* Bordas brancas */
 }
