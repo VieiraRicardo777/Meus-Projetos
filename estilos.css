@@ -158,7 +158,7 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 [data-bs-theme="dark"] .popup-email {
-  background-color: var(--cinza-escuro); /* Fundo escuro */
+  background-color: black; /* Fundo escuro */
   color: white; /* Texto branco */
   border-color: white; /* Bordas brancas */
 }
