@@ -26,6 +26,15 @@ canvas {
     z-index: -1;
 }
 
+h1 {
+    position: relative; /* Garante que o texto fique acima do canvas */
+    z-index: 1; /* Dá prioridade ao texto sobre o canvas */
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 20px;
+    color: #ece2e2;
+}
+
 /* Container para manter os cards organizados */
 .container {
     display: flex;
